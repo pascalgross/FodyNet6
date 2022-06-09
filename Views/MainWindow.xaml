@@ -1,0 +1,10 @@
+﻿<catel:Window x:Class="PartsAndMore.UI.Views.MainWindow"
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              xmlns:catel="http://schemas.catelproject.com"
+              xmlns:views="clr-namespace:PartsAndMore.UI.Views"
+              ResizeMode="CanResize">
+
+    <Label Content="{Binding Name}"/>
+
+</catel:Window>
